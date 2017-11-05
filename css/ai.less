@@ -1,0 +1,144 @@
+@import "common.less";
+body{
+	width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    background: #FFFFFF;
+    color: #3e3e3e;
+}
+
+a{
+	text-decoration: none;
+    color: #3E3E3E;
+    cursor: auto;
+}
+
+ul,li,ol,img{
+	border: medium none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+#subBanner {
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background: url(../img/ai/bg103.jpg) center top no-repeat;
+	background-size: cover;
+}
+
+#homeResour{
+	background: #FFFFFF;
+	width: 100%;
+	height: auto;
+	padding: 50px 0px;
+	.homeResour{
+		max-width: 1000px;
+		height: auto;
+		margin: auto;
+		ul{
+			width: 480px;
+		    height: auto;
+		    margin: auto;
+		    overflow: hidden;		    
+		    li{
+		    	width: 50%;
+			    height: auto;
+			    float: left;
+			    position: relative;
+			    border: medium none;
+			    margin: 0;
+			    padding: 0;
+			    outline: none;
+			    display: list-item;    			
+		    }
+		}
+		.titleIcon{
+			width: 240px;
+			height: 64px;
+			position: relative;
+			margin:auto;
+		}
+	}
+	span{
+		width: 0px;
+	    height: 64px;
+	    position: absolute;
+	    right: 0px;
+	    top: 0px;
+	    border-right: 1px dotted #3E3E3E;
+	    display: block;
+	}
+}
+#recource{
+	width: 100%;
+    height: 500px;
+    // background: url(../images/resouce1.jpg) 50% 170px no-repeat;
+    background-attachment: fixed;
+    .recource{
+	    max-width: 1000px;
+	    height: auto;
+	    margin: auto;
+	    overflow: hidden;
+    }
+    .resourceList{
+	    width: 100%;
+	    height: 300px;
+	    overflow: hidden;
+	    position: relative;
+	    margin-top: 50px;
+    	ul{
+	    	width: 100%;
+		    height: 10000px;
+		    position: absolute;
+		    left: 0px;
+		    top: 0px;		    
+		    li{
+				width: 155px;
+			    height: 140px;
+			    float: left;
+			    margin-right: 56px;
+			    margin-bottom: 10px;
+			    .resourceFocus{
+					width: 100%;
+				    height: auto;
+				    position: relative;
+				    background: #FFFFFF;
+			    }
+			    .resourceInfo{
+			    	color: #3E3E3E;
+			    	line-height: 23px;
+			    	width: 100%;
+				    text-align: center;
+				    height: 30px;				    
+				    margin-top: 5px;
+			    }
+		    }
+    	}
+    	ol{
+    		display: block;
+    		width: 100px;
+		    height: 20px;
+		    position: absolute;
+		    left: 50%;
+		    margin-left: -50px;
+		    bottom: 0px;    		
+		    .cur{
+		    	width: 45px;
+    			background: #1BD0DA;
+		    }
+		    li{
+				width: 20px;
+			    height: 20px;
+			    background: #b3b3b3;
+			    float: left;
+			    border-radius: 20px;
+			    margin-right: 10px;
+			    cursor: pointer;
+    		}    	
+    	}    	
+    }
+}

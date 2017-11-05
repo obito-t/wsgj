@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #3E3E3E;
+}
+li {
+  list-style: none;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+ul {
+  display: block;
+}
+img {
+  border: 0;
+}
+.backTop {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  right: 50px;
+  bottom: -100px;
+  background: #ffffff url(../img/footer/backTop.png) 0px 0px no-repeat;
+  cursor: pointer;
+  z-index: 500;
+  border: 1px solid #1BD0DA;
+}
+.backTop:hover {
+  background: #1bd0da url(../img/footer/backTop.png) 0px -80px no-repeat;
+}
+.backTop.active {
+  bottom: 100px;
+}
+.animate {
+  transition-duration: .5s;
+}
+/**********iPhone 5s********************/
+@media screen and (min-width: 320px) and (max-width: 740px) {
+  #banner ul li.f .cn {
+    margin-top: -30px;
+  }
+  #banner ul li.f .en {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .contactBox {
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+  }
+  .contactBox .contactBoxTitle {
+    width: 180px;
+    margin-left: -90px;
+  }
+  #tips {
+    width: 300px;
+    margin-left: -150px;
+    padding: 0px;
+  }
+  .projectShowBox {
+    max-width: 300px;
+  }
+  .projectShowBox ul li .box {
+    width: 60px;
+    margin-right: 5px;
+    height: auto;
+  }
+  .projectShowBox ul li .box.g {
+    margin-left: 65px;
+  }
+}
+/**********iPhone 6+********************/
+@media screen and (min-width: 414px) and (max-width: 767px) {
+  .homeResourSection .resourBox {
+    width: 100%;
+  }
+}
+/**********iPhone 6s********************/
+@media screen and (min-width: 375px) and (max-width: 413px) {
+  .homeResourSection .resourBox {
+    width: 100%;
+  }
+}
+html,
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  background: #FFFFFF;
+  color: #3e3e3e;
+}
+html,
+body,
+.container {
+  height: 100%;
+}
+::selection {
+  background: #1bd0da;
+  color: #fff;
+}
+html {
+  display: block;
+}
+body,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td,
+img {
+  border: medium none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font: 14px "Microsoft YaHei", tahoma, Srial, helvetica, sans-serif;
+  outline: none;
+}
+.animate {
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+  -moz-transition-duration: .5s;
+}
+#subBanner {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background: url(../img/news/bg63.jpg) center top no-repeat;
+  background-size: cover;
+}
+article,
+aside,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+.newsList ul li {
+  width: 100%;
+}
+.newsList {
+  margin-top: 25px;
+}
+.newsList ul li .newsListContent {
+  width: 94%;
+  margin: 10% 3%;
+}
+.newsList ul li .newsListContent .date {
+  width: 60px;
+}
+.newsList ul li .newsListContent .date strong {
+  font-size: 20px;
+  line-height: 25px;
+}
+.newsList ul li .newsListContent .box .des {
+  font-size: 12px;
+}
+.newsList {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  margin-top: 55px;
+}
+.newsList ul li {
+  width: 50%;
+  height: auto;
+  float: left;
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+}
+.newsList.fullList {
+  margin-top: 0px;
+}
+.newsList.fullList ul li {
+  width: 100%;
+  height: auto;
+}
+.newsList.fullList ul li .newsListContent {
+  max-width: 1000px;
+  margin: 35px auto;
+  overflow: hidden;
+}
+.newsList ul li .newsListContent {
+  max-width: 1000px;
+  margin: 35px auto;
+  overflow: hidden;
+  width: 80%;
+  height: auto;
+  position: relative;
+  z-index: 5;
+}
+.newsList ul li .newsListContent .date {
+  width: 125px;
+  height: auto;
+  float: left;
+  padding-right: 10px;
+  position: relative;
+  opacity: .8;
+}
+.newsList ul li .newsListContent .date strong {
+  display: block;
+  width: 100%;
+  height: auto;
+  line-height: 45px;
+  font-size: 40px;
+  text-align: right;
+}
+.newsList ul li .newsListContent .date p {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  text-align: right;
+  line-height: 22px;
+}
+.newsList ul li .newsListContent .date span {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background: #3E3E3E;
+  opacity: .5;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.newsList ul li .newsListContent .box {
+  float: left;
+  max-width: calc(100% - 145px);
+  height: auto;
+  margin-left: 10px;
+}
+.newsList ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #3E3E3E;
+}
+.newsList ul li .newsListContent .box .title {
+  width: 100%;
+  height: auto;
+  line-height: 25px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.newsList ul li .newsListContent .box .des {
+  width: 100%;
+  height: auto;
+  line-height: 20px;
+  font-size: 14px;
+  opacity: .8;
+  margin-top: 5px;
+}
+.newsList ul li:hover {
+  background: #031D31;
+}
+.newsList.fullList ul li:hover {
+  background: #77cad5;
+}
+.newsList ul li:hover a {
+  color: #FFFFFF;
+}
+.newsList ul li:hover .newsListBg {
+  opacity: .5;
+  filter: alpha(opacity=50);
+}
+.newsList ul li:hover .newsListContent .date {
+  color: #17BEC7;
+  opacity: 1;
+}
+.newsList ul li:hover .newsListContent .date span {
+  background: #FFFFFF;
+}
+.animateEle {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+}
+.animateEle.scrollCur {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+}
+.animateEle {
+  opacity: 0;
+  -webkit-transform: translateY(50px);
+  transform: translateY(50px);
+  -moz-transform: translateY(50px);
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  transition-duration: 1s;
+}
+.animateEle.scrollCur {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -moz-transform: translateY(0px);
+}

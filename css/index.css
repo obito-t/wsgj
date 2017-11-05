@@ -1,0 +1,513 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #3E3E3E;
+}
+li {
+  list-style: none;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+ul {
+  display: block;
+}
+img {
+  border: 0;
+}
+.backTop {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  right: 50px;
+  bottom: -100px;
+  background: #ffffff url(../img/footer/backTop.png) 0px 0px no-repeat;
+  cursor: pointer;
+  z-index: 500;
+  border: 1px solid #1BD0DA;
+}
+.backTop:hover {
+  background: #1bd0da url(../img/footer/backTop.png) 0px -80px no-repeat;
+}
+.backTop.active {
+  bottom: 100px;
+}
+.animate {
+  transition-duration: .5s;
+}
+/**********iPhone 5s********************/
+@media screen and (min-width: 320px) and (max-width: 740px) {
+  #banner ul li.f .cn {
+    margin-top: -30px;
+  }
+  #banner ul li.f .en {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .contactBox {
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+  }
+  .contactBox .contactBoxTitle {
+    width: 180px;
+    margin-left: -90px;
+  }
+  #tips {
+    width: 300px;
+    margin-left: -150px;
+    padding: 0px;
+  }
+  .projectShowBox {
+    max-width: 300px;
+  }
+  .projectShowBox ul li .box {
+    width: 60px;
+    margin-right: 5px;
+    height: auto;
+  }
+  .projectShowBox ul li .box.g {
+    margin-left: 65px;
+  }
+}
+/**********iPhone 6+********************/
+@media screen and (min-width: 414px) and (max-width: 767px) {
+  .homeResourSection .resourBox {
+    width: 100%;
+  }
+}
+/**********iPhone 6s********************/
+@media screen and (min-width: 375px) and (max-width: 413px) {
+  .homeResourSection .resourBox {
+    width: 100%;
+  }
+}
+.wrapper {
+  width: 100%;
+  height: 583px;
+  overflow: hidden;
+}
+.wrapper .banner {
+  font-size: 0;
+  white-space: nowrap;
+}
+.wrapper ol {
+  width: 120px;
+  height: 10px;
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+  bottom: 20px;
+}
+.wrapper ol li {
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 10px;
+  cursor: pointer;
+  background: #FFFFFF;
+  opacity: .5;
+}
+.wrapper ol .cur {
+  opacity: 1;
+}
+#homeAbout {
+  width: 100%;
+  height: auto;
+  background: url(../images/aboutBg.jpg);
+  padding: 50px 0px;
+}
+#homeAbout .homeAbout {
+  max-width: 1000px;
+  height: auto;
+  margin: auto;
+}
+#homeAbout .homeAbout .homeAboutTitle {
+  width: 138px;
+  height: auto;
+  position: relative;
+  margin: auto;
+}
+#homeAbout .homeAbout .homeAboutDes {
+  width: 94%;
+  height: auto;
+  line-height: 35px;
+  text-align: center;
+  padding: 35px 3%;
+}
+#homeAbout .homeAbout .homeAboutMore {
+  width: 145px;
+  height: 40px;
+  margin: auto;
+  display: block;
+  line-height: 40px;
+  text-align: center;
+  font-size: 12px;
+  border: 1px solid #17BEC7;
+  background: #FFFFFF;
+  color: #17BEC7;
+}
+#homeAbout #homeAboutList {
+  width: 100%;
+  height: auto;
+  margin-top: 55px;
+  position: relative;
+}
+#homeAbout #homeAboutList .homeResour {
+  max-width: 1000px;
+  height: auto;
+  margin: auto;
+}
+#homeAbout #homeAboutList .homeResour .homeResourTitle {
+  width: 138px;
+  height: auto;
+  position: relative;
+  margin: auto;
+}
+#homeAbout #homeAboutList .homeAboutList {
+  width: 100%;
+  height: 410px;
+  position: relative;
+  overflow: hidden;
+}
+#homeAbout #homeAboutList .homeAboutList ul {
+  width: 10000px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#homeAbout #homeAboutList .homeAboutList ul li {
+  width: 320px;
+  height: 315px;
+  background: #FFFFFF;
+  float: left;
+  margin-right: 10px;
+  margin-top: 35px;
+  position: relative;
+}
+#homeAbout #homeAboutList .homeAboutList ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#homeAbout #homeAboutList .homeAboutList ul li img {
+  display: block;
+}
+#homeAbout #homeAboutList .homeAboutList ul li .black {
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+#homeAbout #homeAboutList .homeAboutList ul li .animate {
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+  -moz-transition-duration: .5s;
+}
+#homeAbout #homeAboutList .homeAboutList ul li .des {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  text-align: center;
+}
+#homeAbout #homeAboutList .homeAboutList ul li .des strong {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: normal;
+}
+#homeAbout #homeAboutList .homeAboutList ul li .des p {
+  display: block;
+  width: 100%;
+  line-height: 20px;
+  font-size: 12px;
+  opacity: .5;
+}
+#homeAbout #homeAboutList .homeAboutList ul li .des span {
+  display: block;
+  width: 40px;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
+  bottom: 14px;
+  background: #1BD0DA;
+}
+#homeAbout #homeAboutList .homeAboutList ul li .des .animate {
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+  -moz-transition-duration: .5s;
+}
+#homeAbout #homeAboutList .homeAboutList ul li .b {
+  -webkit-transition-delay: .15s;
+  -moz-transition-delay: .15s;
+  transition-delay: .15s;
+}
+#homeAbout #homeAboutList .homeAboutList ul li .c {
+  -webkit-transition-delay: .2s;
+  -moz-transition-delay: .2s;
+  transition-delay: .2s;
+}
+#homeAbout #homeAboutList .homeAboutList ul li .d {
+  -webkit-transition-delay: .25s;
+  -moz-transition-delay: .25s;
+  transition-delay: .25s;
+}
+#homeAbout #homeAboutList .homeAboutList ul li .e {
+  -webkit-transition-delay: .3s;
+  -moz-transition-delay: .3s;
+  transition-delay: .3s;
+}
+#homeAbout #homeAboutList .homeAboutList ul li .f {
+  -webkit-transition-delay: .35s;
+  -moz-transition-delay: .35s;
+  transition-delay: .35s;
+}
+#homeAbout #homeAboutList .homeAboutList ul li .g {
+  -webkit-transition-delay: .4s;
+  -moz-transition-delay: .4s;
+  transition-delay: .4s;
+}
+#homeAbout #homeAboutList .homeAboutList ul .animateEle,
+#homeAbout #homeAboutList .homeAboutList ul .scrollCur {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+}
+#homeAbout #homeAboutList .homeAboutList ol {
+  width: 70px;
+  height: 5px;
+  position: absolute;
+  left: 50%;
+  margin-left: -35px;
+  bottom: 30px;
+  display: none;
+}
+#homeAbout #homeAboutList .homeAboutList ol li {
+  width: 5px;
+  height: 5px;
+  float: left;
+  margin-right: 5px;
+  border-radius: 5px;
+  opacity: .5;
+  background: #3e3e3e;
+}
+#homeResour {
+  background: #FFFFFF;
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+}
+#homeResour .animateEle,
+#homeResour .scrollCur {
+  transition-duration: 1s;
+}
+#homeResour .homeResour {
+  max-width: 1000px;
+  height: auto;
+  margin: auto;
+}
+#homeResour .homeResour .homeResourTitle {
+  width: 138px;
+  height: auto;
+  position: relative;
+  margin: auto;
+}
+#homeResour .newsList {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  margin-top: 55px;
+}
+#homeResour .newsList ul li {
+  width: 50%;
+  height: auto;
+  float: left;
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+}
+#homeResour .newsList ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #3E3E3E;
+}
+#homeResour .newsList ul li a .newsListBg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: url(../images/demo1.jpg) center center no-repeat;
+  background-size: cover;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+#homeResour .newsList ul li a .animate {
+  transition-duration: .5s;
+}
+#homeResour .newsList ul li a .newsListContent {
+  height: 145px;
+  padding: 80px;
+}
+#homeResour .newsList ul li a .newsListContent .date {
+  width: 125px;
+  height: auto;
+  float: left;
+  padding-right: 10px;
+  position: relative;
+  opacity: .8;
+}
+#homeResour .newsList ul li a .newsListContent .date strong {
+  display: block;
+  width: 100%;
+  height: auto;
+  line-height: 45px;
+  font-size: 40px;
+  text-align: right;
+}
+#homeResour .newsList ul li a .newsListContent .date p {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  text-align: right;
+  line-height: 22px;
+}
+#homeResour .newsList ul li a .newsListContent .date span {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background: #3E3E3E;
+  opacity: .5;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+#homeResour .newsList ul li a .newsListContent .box {
+  float: left;
+  max-width: calc(100% - 145px);
+  height: auto;
+  margin-left: 10px;
+}
+#homeResour .newsList ul li a .newsListContent .box .title {
+  width: 100%;
+  height: auto;
+  line-height: 25px;
+  font-weight: bold;
+  font-size: 16px;
+}
+#homeResour .newsList ul li a .newsListContent .box .des {
+  width: 100%;
+  height: auto;
+  line-height: 20px;
+  font-size: 14px;
+  opacity: .8;
+  margin-top: 5px;
+}
+#homeResour .newsList ul li a .newsListContent .box .des p {
+  display: block;
+  width: 100%;
+  line-height: 20px;
+  font-size: 12px;
+  opacity: .5;
+}
+#homeResour .newsList ul li:hover {
+  background-color: #394D5D;
+}
+#homeResour .newsList ul li:hover a .newsListContent .date p {
+  color: #7CD5DF;
+}
+#homeResour .newsList ul li:hover a .newsListContent .box .des,
+#homeResour .newsList ul li:hover a .newsListContent .box .title {
+  color: white;
+}
+#homeResour .homeResourSection {
+  width: 100%;
+  height: 350px;
+  background: url(../img/index/bg29.jpg) center top no-repeat;
+}
+#homeResour .homeResourSection .resourBox {
+  width: 550px;
+  height: 350px;
+  position: absolute;
+}
+#homeResour .homeResourSection .resourBox a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#homeResour .homeResourSection .resourBox .title {
+  width: 250px;
+  height: 55px;
+  position: relative;
+  margin: auto;
+  border-bottom: 1px solid #abe7dc;
+  line-height: 55px;
+  text-align: center;
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+#homeResour .homeResourSection .resourBox .des {
+  width: 80%;
+  height: auto;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-left: 10%;
+  margin-top: 20px;
+  font-size: 13px;
+}
+#homeResour .homeResourSection .resourBox .more {
+  width: 145px;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  margin-left: -72px;
+  bottom: 35px;
+  border: 1px solid #FFFFFF;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+}
+#homeResour .homeResourSection .resourBox .lineBg {
+  width: 94%;
+  height: 90%;
+  left: calc(0%);
+  border: 3px solid #FFFFFF;
+  position: absolute;
+  top: calc(2%);
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+#homeResour .first {
+  margin-top: 35px;
+}
+#homeResour .first .resourBox {
+  left: 5%;
+}
+#homeResour .second {
+  width: 100%;
+  height: 350px;
+  background: url(../img/index/bg30.jpg) center top no-repeat;
+}
+#homeResour .second .resourBox {
+  right: 5%;
+}

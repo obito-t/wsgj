@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #3E3E3E;
+}
+li {
+  list-style: none;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+ul {
+  display: block;
+}
+img {
+  border: 0;
+}
+.backTop {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  right: 50px;
+  bottom: -100px;
+  background: #ffffff url(../img/footer/backTop.png) 0px 0px no-repeat;
+  cursor: pointer;
+  z-index: 500;
+  border: 1px solid #1BD0DA;
+}
+.backTop:hover {
+  background: #1bd0da url(../img/footer/backTop.png) 0px -80px no-repeat;
+}
+.backTop.active {
+  bottom: 100px;
+}
+.animate {
+  transition-duration: .5s;
+}
+/**********iPhone 5s********************/
+@media screen and (min-width: 320px) and (max-width: 740px) {
+  #banner ul li.f .cn {
+    margin-top: -30px;
+  }
+  #banner ul li.f .en {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .contactBox {
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+  }
+  .contactBox .contactBoxTitle {
+    width: 180px;
+    margin-left: -90px;
+  }
+  #tips {
+    width: 300px;
+    margin-left: -150px;
+    padding: 0px;
+  }
+  .projectShowBox {
+    max-width: 300px;
+  }
+  .projectShowBox ul li .box {
+    width: 60px;
+    margin-right: 5px;
+    height: auto;
+  }
+  .projectShowBox ul li .box.g {
+    margin-left: 65px;
+  }
+}
+/**********iPhone 6+********************/
+@media screen and (min-width: 414px) and (max-width: 767px) {
+  .homeResourSection .resourBox {
+    width: 100%;
+  }
+}
+/**********iPhone 6s********************/
+@media screen and (min-width: 375px) and (max-width: 413px) {
+  .homeResourSection .resourBox {
+    width: 100%;
+  }
+}
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  background: #FFFFFF;
+  color: #3e3e3e;
+  font: 14px "Microsoft YaHei", tahoma, Srial, helvetica, sans-serif;
+  outline: none;
+}
+ul {
+  display: block;
+}
+section {
+  display: block;
+}
+#subBanner {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background: url(../img/aboutus/bg50.jpg) center top no-repeat;
+  background-size: cover;
+}
+#homeResour {
+  background: #FFFFFF;
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+}
+#homeResour .homeResour {
+  max-width: 1000px;
+  height: auto;
+  margin: auto;
+}
+#homeResour .homeResour .titleIcon {
+  width: 240px;
+  height: 64px;
+  position: relative;
+  margin: auto;
+}
+#fullSection {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+}
+#fullSection .fullSection {
+  max-width: 1000px;
+  height: auto;
+  margin: auto;
+}
+#fullSection .fullSection .aboutlist {
+  width: 100%;
+  height: auto;
+}
+#fullSection .fullSection .aboutlist li {
+  border: medium none;
+  margin: 0;
+  padding: 40px 0px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-bottom: 1px dotted #CCCCCC;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+#fullSection .fullSection .aboutlist .aboutImg {
+  width: 342px;
+  height: auto;
+  margin: auto;
+}
+#fullSection .fullSection .aboutlist .aboutTips {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #c61412;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 80px;
+}
+#fullSection .fullSection .aboutlist .aboutInfo {
+  width: 100%;
+  height: auto;
+  line-height: 28px;
+  font-size: 18px;
+  opacity: .8;
+}
+#fullSection .fullSection .aboutlist .aboutInfo p {
+  display: block;
+}
+#fullSection .fullSection .aboutlist .two .aboutRight {
+  float: right;
+  width: 39.5%;
+  height: auto;
+  margin-top: 0px;
+}
+#fullSection .fullSection .aboutlist .two .aboutLeft {
+  float: left;
+  width: 56.5%;
+  height: auto;
+  text-align: right;
+}
+#fullSection .fullSection .aboutlist .two .aboutLeft .title {
+  width: 100%;
+  line-height: 60px;
+  font-size: 32px;
+  color: #45b7c3;
+  font-weight: bold;
+}
+#fullSection .fullSection .aboutlist .two .aboutLeft .des {
+  width: 100%;
+  height: auto;
+  line-height: 28px;
+  font-size: 16px;
+  opacity: .8;
+  text-align: right;
+}
+#fullSection .fullSection .aboutlist .two .aboutLeft .des a {
+  text-decoration: none;
+  color: #3E3E3E;
+}
+#fullSection .fullSection .aboutlist .animateEle {
+  opacity: 1;
+  transform: translateY(0px);
+  transition-duration: 1s;
+}
+#fullSection .fullSection .aboutlist .three {
+  border-bottom: none;
+}
+#fullSection .fullSection .aboutlist .three .aboutRight {
+  float: left;
+  width: 39.5%;
+  height: auto;
+  margin-top: 0px;
+}
+#fullSection .fullSection .aboutlist .three .aboutLeft {
+  float: right;
+  width: 56.5%;
+  height: auto;
+  text-align: right;
+}
+#fullSection .fullSection .aboutlist .three .aboutLeft .title {
+  text-align: left;
+  color: #aa8952;
+  width: 100%;
+  line-height: 60px;
+  font-size: 32px;
+  font-weight: bold;
+}
+#fullSection .fullSection .aboutlist .three .aboutLeft .des {
+  text-align: left;
+  width: 100%;
+  height: auto;
+  line-height: 28px;
+  font-size: 16px;
+  opacity: .8;
+}
+#fullSection .fullSection .aboutlist .three .aboutLeft .des p {
+  display: block;
+}

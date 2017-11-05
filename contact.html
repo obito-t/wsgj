@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html style="height: auto;">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="renderer" content="webkit">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0">
+		<title>联系我们</title>
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<link rel="stylesheet" href="css/contact.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/copyright.css" />
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+	</head>
+
+	<body>
+		<header id="header" class="animate">
+		<h1><img src="img/index/bg24.png" alt="威氏国际LOGO"></h1>
+		<nav id="nav" class="animate">
+			<ul>
+				<li class="first cur">
+					<a href="/" rel="external">
+						<strong>首页</strong>
+						<p>HOME</p>
+						<span></span>
+					</a>
+				</li>
+				<li>
+					<a href="/AboutUs/" rel="external">
+						<strong>关于我们</strong>
+						<p>ABOUT US</p>
+						<span></span>
+					</a>
+				</li>
+				<li>
+					<a href="/project/" rel="external">
+						<strong>项目</strong>
+						<p>programs</p>
+						<span></span>
+					</a>
+				</li>
+				<li>
+					<a href="/Foreign_resources/">
+						<strong>中外院校</strong>
+						<p>Academic Institutes</p>
+						<span></span>
+					</a>
+				</li>
+				<li>
+					<a href="/News/" rel="external">
+						<strong>动态资讯</strong>
+						<p>news</p>
+						<span></span>
+					</a>
+				</li>
+				<li>
+					<a href="/contact/" rel="external">
+						<strong>联系我们</strong>
+						<p>contact</p>
+						<span></span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<nav id="mobileNav">
+			<span></span>
+			<span></span>
+			<span></span>
+		</nav>
+		<!-- <nav class="testNav">
+			<a href="/" rel="external">首页</a>
+			<a href="/AboutUs/" rel="external">关于我们</a>
+			<a href="/project/" rel="external">项目</a>
+			<a href="/Foreign_resources/" rel="external">资源</a>
+			<a href="/News/" rel="external">动态资讯</a>
+			<a href="/contact/" rel="external">联系我们</a>
+		</nav> -->
+	</header>
+		<section id="contact" style="height:647px">
+			<div class="contactBox">
+				<form id="from" name="from" method="post">
+					<div class="contactBoxTitle"><img src="img/contact/bg67.png" width="100%">
+					</div>
+					<div class="contactSection">
+						<label>姓名/Name</label>
+						<input type="text" placeholder="请输入姓名" id="xingming" name="field1" class="textInput userInput" />
+					</div>
+					<div class="contactSection">
+						<label>电话/Tel</label>
+						<input type="tel" placeholder="请输入电话" name="field2" id="phone" maxlength="11" class="textInput telInput" onkeypress="weishi.keyPress()" />
+					</div>
+					<div class="contactSection">
+						<label>电子邮箱/E-mail</label>
+						<input type="text" placeholder="请输入电子邮箱" id="email" name="field3" class="textInput emailInput" />
+					</div>
+					<div class="contactSection">
+						<label>正文内容/Content</label>
+						<textarea name="" rows="" cols="" id="textarea" name="field4" class="textArea"></textarea>
+					</div>
+					<input type="botton" value="提交" onclick="CheckMail();" class="contactSend" style="border:none;">
+				</form>
+			</div>
+		</section>
+		<footer id="footer">
+			<div class="footer">
+				<div class="addressList">
+					<ul>
+						<li>
+							<h2>英国总部<span style="font-size: 12px; font-weight: normal; padding-left: 10px;">Headquarter in the UK</span></h2>
+
+							<div class="addressSection first">
+								<div class="icon"></div>
+								英国伦敦海顿花园88-90号48室
+							</div>
+							<div class="addressSection en">
+								<div class="icon" style="background: none;"></div>
+								48, 88-90 Hatton Garden, London, EC1N 8PN England, United Kingdom
+							</div>
+							<div class="addressSection">
+								<div class="icon b"></div>
+								<div>+44(0)7492919240</div>
+							</div>
+							<div class="addressSection">
+								<div class="icon c"></div>
+								<div>info@wizdii.com</div>
+							</div>
+							<div class="addressSection">
+								<div class="icon d"></div>
+								<div>EC1N 8PN</div>
+							</div>
+						</li>
+						<li>
+							<h2>成都办公室<span style="font-size: 12px; font-weight: normal; padding-left: 10px;">Chengdu office</span></h2>
+
+							<div class="addressSection first">
+								<div class="icon"></div>
+								成都天府大道北段1700号环球中心E5-1112室
+							</div>
+							<div class="addressSection en">
+								<div class="icon" style="background: none;"></div>
+								1112, E5, Global Centre, 1700 Tianfu Avenue North Chengdu, P.R. China
+							</div>
+							<div class="addressSection">
+								<div class="icon b"></div>
+								<div>+86 28 61989898</div>
+							</div>
+							<div class="addressSection">
+								<div class="icon c"></div>
+								<div>info@wizdii.com</div>
+							</div>
+							<div class="addressSection">
+								<div class="icon d"></div>
+								<div>617000</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<section class="copyright">
+			<h1><img src="img/index/bg24.png" width="100%"></h1>
+			<div class="ray_footer">
+				中国出入境资质：L-SC-CJ00100<br> British Council 英国文化教育委员会 备案资质号：CQ12972<br> 澳大利亚新南威尔士州教育部资质查询：&nbsp;http://www.decinternational.nsw.edu.au
+				<br>
+			</div>
+			<p>
+				<a href="/shuwon_admin/" class="copyLink">© 2016wizdii international</a> 蜀ICP备11027035号-1
+				<a href="http://www.shuwon.com" target="_blank">网站建设:蜀美网络</a>
+			</p>
+			<div class="link">
+				<a href="http://www.shuwon.com" target="_blank">网站建设:蜀美网络</a>
+			</div>
+		</section>
+		<div class="backTop animate" id="backTop"></div>
+	<script src="js/common.js"></script>
+	</body>
+</html>

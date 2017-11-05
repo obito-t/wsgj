@@ -1,0 +1,198 @@
+@import "common.less";
+
+html, body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    background: #FFFFFF;
+    color: #3e3e3e;
+}
+body, button, input, select, textarea {
+    font: 14px "Microsoft YaHei",tahoma, Srial, helvetica, sans-serif;
+    outline: none;
+}
+
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+body, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, img {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+form {
+    display: block;
+}
+img {
+    border: 0px;
+    filter: alpha(opacity=100);
+}
+label {
+    cursor: default;
+}
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+textarea {
+    -webkit-appearance: textarea;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    flex-direction: column;
+    resize: auto;
+    cursor: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    padding: 2px;
+}
+div {
+    display: block;
+}
+::selection {
+    background: #1bd0da;
+    color: #fff;
+}
+#contact {
+    width: 100%;
+    position: relative;
+    background: url(../img/contact/bg67.jpg) center center no-repeat;
+}
+.contactBox {
+    width: 400px;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px #CCCCCC;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    margin-top: -220px;
+     .contactBoxTitle {
+	    width: 240px;
+	    height: auto;
+	    position: relative;
+	    left: 50%;
+	    margin-left: -120px;
+	    margin-top: 25px;
+	    margin-bottom: 15px;
+	}
+}
+.contactSection {
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    label {
+	    width: 100%;
+	    height: auto;
+	    line-height: 25px;
+	    display: block;
+	    margin-bottom: 5px;
+	    font-weight: bold;
+	}
+	.textInput {
+	    width: 100%;
+	    height: 28px;
+	    line-height: 28px;
+	    border: 1px solid #CCCCCC;
+	    text-indent: 10px;
+	}
+	textarea {
+	    width: 94%;
+	    height: 60px;
+	    padding: 10px 3%;
+	    border: 1px solid #CCCCCC;
+	    line-height: 20px;
+	    outline: none;
+	    overflow: hidden;
+	    resize: none;
+	}
+}
+.contactSend {
+    width: 180px;
+    height: 30px;
+    background: #1BD0DA;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    margin-left: -90px;
+    bottom: 20px;
+}
+
+
+
+// .backTop {
+//     width: 80px;
+//     height: 80px;
+//     position: fixed;
+//     right: 50px;
+//     bottom: -100px;
+//     background: #FFFFFF url(../img/footer/backTop.png) 0px 0px no-repeat;
+//     cursor: pointer;
+//     z-index: 500;
+//     border: 1px solid #1BD0DA;
+// }
+
+// .backTop:hover {
+//     background: #1BD0DA url(../img/footer/backTop.png) 0px -80px no-repeat;
+// }
+
+// .backTop.active {
+//     bottom: 100px;
+// }
+// .animate {
+//     transition-duration: .5s;
+// }
+// #tips {
+//     width: 500px;
+//     padding: 0px 50px;
+//     height: 40px;
+//     position: fixed;
+//     left: 50%;
+//     margin-left: -300px;
+//     bottom: -60px;
+//     background: #b82525;
+//     text-align: center;
+//     line-height: 40px;
+//     color: #FFFFFF;
+// }
+// #tips.green {
+//     background: #09bb26;
+// }
+
+// #tips strong {
+//     font-weight: normal;
+// }
+
+// #tips .close {
+//     width: 30px;
+//     height: 30px;
+//     position: absolute;
+//     right: 5px;
+//     top: 5px;
+//     background: url(../img/footer/close.png) no-repeat;
+//     cursor: pointer;
+// }
+
+// #tips .close:hover {
+//     -webkit-transform: rotate(90deg);
+//     transform: rotate(90deg);
+// }

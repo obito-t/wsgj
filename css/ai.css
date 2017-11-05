@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #3E3E3E;
+}
+li {
+  list-style: none;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+ul {
+  display: block;
+}
+img {
+  border: 0;
+}
+.backTop {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  right: 50px;
+  bottom: -100px;
+  background: #ffffff url(../img/footer/backTop.png) 0px 0px no-repeat;
+  cursor: pointer;
+  z-index: 500;
+  border: 1px solid #1BD0DA;
+}
+.backTop:hover {
+  background: #1bd0da url(../img/footer/backTop.png) 0px -80px no-repeat;
+}
+.backTop.active {
+  bottom: 100px;
+}
+.animate {
+  transition-duration: .5s;
+}
+/**********iPhone 5s********************/
+@media screen and (min-width: 320px) and (max-width: 740px) {
+  #banner ul li.f .cn {
+    margin-top: -30px;
+  }
+  #banner ul li.f .en {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .contactBox {
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+  }
+  .contactBox .contactBoxTitle {
+    width: 180px;
+    margin-left: -90px;
+  }
+  #tips {
+    width: 300px;
+    margin-left: -150px;
+    padding: 0px;
+  }
+  .projectShowBox {
+    max-width: 300px;
+  }
+  .projectShowBox ul li .box {
+    width: 60px;
+    margin-right: 5px;
+    height: auto;
+  }
+  .projectShowBox ul li .box.g {
+    margin-left: 65px;
+  }
+}
+/**********iPhone 6+********************/
+@media screen and (min-width: 414px) and (max-width: 767px) {
+  .homeResourSection .resourBox {
+    width: 100%;
+  }
+}
+/**********iPhone 6s********************/
+@media screen and (min-width: 375px) and (max-width: 413px) {
+  .homeResourSection .resourBox {
+    width: 100%;
+  }
+}
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  background: #FFFFFF;
+  color: #3e3e3e;
+}
+a {
+  text-decoration: none;
+  color: #3E3E3E;
+  cursor: auto;
+}
+ul,
+li,
+ol,
+img {
+  border: medium none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+#subBanner {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background: url(../img/ai/bg103.jpg) center top no-repeat;
+  background-size: cover;
+}
+#homeResour {
+  background: #FFFFFF;
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+}
+#homeResour .homeResour {
+  max-width: 1000px;
+  height: auto;
+  margin: auto;
+}
+#homeResour .homeResour ul {
+  width: 480px;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+#homeResour .homeResour ul li {
+  width: 50%;
+  height: auto;
+  float: left;
+  position: relative;
+  border: medium none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  display: list-item;
+}
+#homeResour .homeResour .titleIcon {
+  width: 240px;
+  height: 64px;
+  position: relative;
+  margin: auto;
+}
+#homeResour span {
+  width: 0px;
+  height: 64px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border-right: 1px dotted #3E3E3E;
+  display: block;
+}
+#recource {
+  width: 100%;
+  height: 500px;
+  background-attachment: fixed;
+}
+#recource .recource {
+  max-width: 1000px;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+#recource .resourceList {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 50px;
+}
+#recource .resourceList ul {
+  width: 100%;
+  height: 10000px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#recource .resourceList ul li {
+  width: 155px;
+  height: 140px;
+  float: left;
+  margin-right: 56px;
+  margin-bottom: 10px;
+}
+#recource .resourceList ul li .resourceFocus {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: #FFFFFF;
+}
+#recource .resourceList ul li .resourceInfo {
+  color: #3E3E3E;
+  line-height: 23px;
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  margin-top: 5px;
+}
+#recource .resourceList ol {
+  display: block;
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  bottom: 0px;
+}
+#recource .resourceList ol .cur {
+  width: 45px;
+  background: #1BD0DA;
+}
+#recource .resourceList ol li {
+  width: 20px;
+  height: 20px;
+  background: #b3b3b3;
+  float: left;
+  border-radius: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}

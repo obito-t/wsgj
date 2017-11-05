@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #3E3E3E;
+}
+li {
+  list-style: none;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+ul {
+  display: block;
+}
+img {
+  border: 0;
+}
+.backTop {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  right: 50px;
+  bottom: -100px;
+  background: #ffffff url(../img/footer/backTop.png) 0px 0px no-repeat;
+  cursor: pointer;
+  z-index: 500;
+  border: 1px solid #1BD0DA;
+}
+.backTop:hover {
+  background: #1bd0da url(../img/footer/backTop.png) 0px -80px no-repeat;
+}
+.backTop.active {
+  bottom: 100px;
+}
+.animate {
+  transition-duration: .5s;
+}
+/**********iPhone 5s********************/
+@media screen and (min-width: 320px) and (max-width: 740px) {
+  #banner ul li.f .cn {
+    margin-top: -30px;
+  }
+  #banner ul li.f .en {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .contactBox {
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+  }
+  .contactBox .contactBoxTitle {
+    width: 180px;
+    margin-left: -90px;
+  }
+  #tips {
+    width: 300px;
+    margin-left: -150px;
+    padding: 0px;
+  }
+  .projectShowBox {
+    max-width: 300px;
+  }
+  .projectShowBox ul li .box {
+    width: 60px;
+    margin-right: 5px;
+    height: auto;
+  }
+  .projectShowBox ul li .box.g {
+    margin-left: 65px;
+  }
+}
+/**********iPhone 6+********************/
+@media screen and (min-width: 414px) and (max-width: 767px) {
+  .homeResourSection .resourBox {
+    width: 100%;
+  }
+}
+/**********iPhone 6s********************/
+@media screen and (min-width: 375px) and (max-width: 413px) {
+  .homeResourSection .resourBox {
+    width: 100%;
+  }
+}
