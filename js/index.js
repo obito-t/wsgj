@@ -14,11 +14,15 @@ for(var i = 0;i < obj.length;i++){
 		}
 	})(obj[i],i);
 }
-console.log(obj);
+// console.log(obj);
 var bannerDom = document.getElementById("banner");
+// console.log(bannerDom);
 var widths = [0 * -1920, 1 * -1920, 2 * -1920, 3 * -1920, 4 * -1920];
 var i = 1;
-bannerDom.style.transition = 'all 1s';
+if(bannerDom){
+	bannerDom.style.transition = 'all 1s';
+}
+
 setInterval(function() {
 	var dots = document.getElementById("dots").getElementsByTagName("li");
 	dots[i].setAttribute("class","cur");
